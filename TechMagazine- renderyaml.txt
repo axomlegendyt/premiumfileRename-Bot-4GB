@@ -1,12 +1,12 @@
 services:
   - type: web
     plan: free
-    name: TechMagazineAutoFilterBot
+    name: premiumfileRename-Bot-4GB
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 bot.py
-    repo: https://github.com/itsyogieu/TechMagazineAutoFilterBot.git      
-    branch: master
+    repo: https://github.com/axomlegendyt/premiumfileRename-Bot-4GB      
+    branch: main
     envVars:
       - key: BOT_TOKEN 
         sync: false
